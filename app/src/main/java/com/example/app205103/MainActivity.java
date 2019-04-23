@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         SpnrOpciones = (Spinner)findViewById(R.id.SpnrOpciones);
 
         final String[] ArrayDeOpciones = new String[]{ "Opción 1", "Opción 2", "Opción 3", "Opción 4", "Opción 5" };
-        ArrayAdapter<String> Adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
+        ArrayAdapter<String> Adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, ArrayDeOpciones);
 
         Adaptador.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 

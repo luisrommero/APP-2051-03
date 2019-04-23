@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones_array">
+        <item>Película 1</item>
+        <item>Película 2</item>
+        <item>Película 3</item>
+        <item>Película 4</item>
+        <item>Película 5</item>
+        <item>Película 6</item>
+    </string-array>
+</resources>
